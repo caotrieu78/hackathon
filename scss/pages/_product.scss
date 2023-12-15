@@ -1,0 +1,22 @@
+
+.--grid {
+    display: grid;
+    gap: var(--gap-grid);
+
+    &.--layout-12 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    &.--layout-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.--layout-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &.--layout-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

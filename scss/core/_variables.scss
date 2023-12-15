@@ -1,0 +1,43 @@
+:root {
+    /* Gap, MaxWidth Of Page, Container-Fluid, Container */
+    --gap: 20px;
+    --gap-grid: 26px;
+    --max-width-page: 2560px;
+    --max-width-container: calc(1350px + calc(var(--gap) * 2)); // 1200px tuỳ thuộc bản thiết kế */
+    /* Colors Variable */
+    --main-cl: #0328EE;
+    --white: #fff;
+    --black: black;
+    --gray: #7c7c7c;
+    --fs-body1: 1.8rem;
+    --lh-body1: 3.2rem;
+    --ls-body1: 0rem;
+    --fs-body2: 1.6rem;
+    --lh-body2: 2.6rem;
+    --ls-body2: 0rem;
+    --fs-text-menu: 1.4rem;
+    --lh-text-menu: 1.6rem;
+    --ls-text-menu: 0.14rem;
+    --fs-text-tag: 1.4rem;
+    --lh-text-tag: 1.8rem;
+    --ls-text-tag: 0.07rem;
+    // General Variable 
+    --height-header: 80px;
+    --height-button: 70px;
+    // Timing Transition Variable 
+    --t: 0.4s;
+    --cubic: cubic-bezier(0.59, 0.29, 0.15, 0.93);
+    // Responsive
+    // @include md {
+    //     --max-width-container: calc(1140px + calc(var(--gap) * 2));
+    // }
+    // @include sm {
+    //     --max-width-container: calc(960px + calc(var(--gap) * 2)); // hoặc max-width: 100% tuỳ yêu cầu
+    //     --height-header: 73px;
+    // }
+    // @include xs {
+    // }
+    // @include xxs {
+    //     --max-width-container: 100%;
+    // }
+}
